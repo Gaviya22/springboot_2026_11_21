@@ -5,6 +5,7 @@ import org.example.crm.dto.Customer;
 import java.util.List;
 
 public interface CustomerService {
+
     boolean addCustomer(Customer customer);
 
     List<Customer> getAll();

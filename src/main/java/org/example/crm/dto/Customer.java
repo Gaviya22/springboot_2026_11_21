@@ -3,10 +3,10 @@ package org.example.crm.dto;
 
 import lombok.*;
 
-@Getter
-@Setter
+@Data
 @ToString
-@AllArgsConstructor@NoArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
 public class Customer {
     private Integer id;
     private String name;
